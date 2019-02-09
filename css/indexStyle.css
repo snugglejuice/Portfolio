@@ -1,0 +1,91 @@
+[class*="col-"], footer {
+  font-family: Open Sans, sans-serif;
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+}
+
+@font-face {
+ font-family: "Yeseva One";
+ src: url("../asset/fonts/YesevaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../asset/fonts/Montserrat-SemiBold.ttf");
+}
+
+body {
+  width:100%;
+  height:100%;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  background: black;
+  color:#fef9ff;
+
+  position: relative;
+}
+
+h1{
+  font-family: "Yeseva One", sans-serif;
+  font-size: 10rem;
+
+}
+
+h3{
+  font-family: "Montserrat";
+}
+
+a{
+  width: 15%;
+}
+
+button{
+  color:#fef9ff;
+  font-family: "Montserrat";
+
+  padding: 1em 1.5em;
+
+  text-decoration: none;
+
+  border:3px solid white;
+  border-radius: 4px;
+
+  background:none;
+  position:fixed;
+
+  transition:color 0.25s ease;
+}
+
+button::after {
+  position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-image: linear-gradient(to right, #c1bddb , #ff99C9);
+  transform-origin:left;
+  transition:width 0.25s ease;
+  z-index:-1;
+}
+
+button:hover{
+  color : white;
+}
+
+button:hover::after {
+  width: 100%;
+}
+
+
+canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}

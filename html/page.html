@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr" class="h-100">
+    <head>
+        <title>Welcome in my dimension ! </title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+        <script src="../bootstrap/js/jquery.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+
+        <meta name="description" content="This website is my personal Portfolio" />
+
+        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	      <link rel="stylesheet" type="text/css" href="../css/MAINStyle.css" />
+
+    </head>
+    <body>
+          <canvas id="renderCanvas"></canvas>
+          <div id="container"class = "w-25 h-50 d-flex  justify-content-center align-items-center flex-column mt-2 ml-2">
+          <h4 class="mb-5">PARAMETERS</h4>
+          <h4>Points</h4>
+          <input
+            type="range"
+            name="range"
+            id="points"
+            min="2"
+            max="500"
+           >
+
+          <h4>Speed</h4>
+          <input
+            type="range"
+            name="range"
+            id="speed"
+            min="0.01"
+            max="0.1"
+            step="0.01"
+           >
+
+          <div class="d-flex flex_row mt-4">
+            <button class="mr-1" id="pattern1">Pattern 1</button>
+            <button class="mr-1" id="pattern2">Pattern 2</button>
+            <button class="mr-1" id="pattern3">Pattern 3</button>
+          </div>
+
+          <script type="text/javascript" src="../js/Circle.js"></script>
+    </body>
+
+
+</html>
