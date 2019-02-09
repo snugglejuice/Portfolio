@@ -171,7 +171,6 @@
     drawCircle();
     for (i=0; i<vectorPoints.length; i++)
     {
-      context.strokeStyle = color2;
       drawLine(vectorPoints[i]);
     }
     requestAnimationFrame(draw);
