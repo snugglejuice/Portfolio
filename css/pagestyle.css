@@ -1,0 +1,122 @@
+/*[class*="col"], footer {
+  font-family: Open Sans, sans-serif;
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+}*/
+
+@font-face {
+ font-family: "Yeseva One";
+ src: url("../asset/fonts/YesevaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat SemiBold";
+    src: url("../asset/fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("../asset/fonts/Montserrat-Regular.ttf");
+}
+
+body{
+  background-color: black;
+  color:white;
+  height: 100%;
+}
+
+
+p{
+  font-family: "Montserrat Regular";
+  margin-bottom: 0em;
+}
+
+h1{
+  font-family: "Montserrat SemiBold";
+  font-size: 12rem;
+}
+
+
+
+
+h4{
+  font-family: "Yeseva One";
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.header_content{
+  margin-right: 0;
+}
+
+.content-container{
+  height: 80%;
+}
+
+#renderCanvas{
+  width: 70%;
+  display: block;
+  padding: auto;
+}
+
+#header-title
+{
+  text-align: center;
+}
+#button{
+  font-family: "Montserrat SemiBold";
+
+  font-size: 1.3rem;
+
+  background-color: black;
+  border-radius: 5%;
+}
+
+.border-button{
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+  background-image: linear-gradient(to right, #c368a6 , #2e488b);
+  border-radius: 5%;
+}
+
+#button-container{
+  margin-top: 10%;
+}
+
+@media (min-width: 850px) and (max-width: 970px) {
+h1 {
+	font-size: 10rem;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 850px) {
+  h1 {
+  	font-size: 8rem;
+  	}
+
+  #renderCanvas{
+    width: 70%;
+    display: block;
+    padding: auto;
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+h1 {
+	font-size: 5rem;
+	}
+p{
+  font-size: 0.8rem;
+}
+
+  #renderCanvas{
+    width: 70%;
+    display: block;
+    padding: auto;
+    margin-top: 20%;
+  }
+}

@@ -1,11 +1,11 @@
-[class*="col-"], footer {
+/*[class*="col-"], footer {
   font-family: Open Sans, sans-serif;
   background-color: lightgreen;
   border: 2px solid black;
   border-radius: 6px;
   text-align: center;
 }
-
+*/
 @font-face {
  font-family: "Yeseva One";
  src: url("../asset/fonts/YesevaOne-Regular.ttf");
@@ -30,7 +30,6 @@ body {
 h1{
   font-family: "Yeseva One", sans-serif;
   font-size: 10rem;
-
 }
 
 h3{
@@ -65,7 +64,7 @@ button::after {
   left: 0;
   width: 0;
   height: 100%;
-  background-image: linear-gradient(to right, #c1bddb , #ff99C9);
+  background-image: linear-gradient(to right, #c368a6 , #2e488b);
   transform-origin:left;
   transition:width 0.25s ease;
   z-index:-1;

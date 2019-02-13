@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr" class="h-100">
     <head>
-        <title>Welcome in my dimension ! </title>
+        <title>Welcome ! </title>
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,39 +15,55 @@
         <meta name="description" content="This website is my personal Portfolio" />
 
         <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	      <link rel="stylesheet" type="text/css" href="../css/MAINStyle.css" />
+	      <link rel="stylesheet" type="text/css" href="../css/pagestyle.css" />
 
     </head>
     <body>
-          <canvas id="renderCanvas"></canvas>
-          <div id="container"class = "w-25 h-50 d-flex  justify-content-center align-items-center flex-column mt-2 ml-2">
-          <h4 class="mb-5">PARAMETERS</h4>
-          <h4>Points</h4>
-          <input
-            type="range"
-            name="range"
-            id="points"
-            min="2"
-            max="500"
-           >
-
-          <h4>Speed</h4>
-          <input
-            type="range"
-            name="range"
-            id="speed"
-            min="0.01"
-            max="0.1"
-            step="0.01"
-           >
-
-          <div class="d-flex flex_row mt-4">
-            <button class="mr-1" id="pattern1">Pattern 1</button>
-            <button class="mr-1" id="pattern2">Pattern 2</button>
-            <button class="mr-1" id="pattern3">Pattern 3</button>
+      <div class="w-100 header">
+        <div class="row">
+          <div class="col-sm-7 col-md-9"></div>
+          <div class="col-sm-5 col-md-3 my-4 header-content">
+            <p id="header-title"> Welcome in my dimension </p>
+            <h4> Séminel Marion </h4>
           </div>
+      </div>
+      </div>
+      <div class="w-100 content-container">
+        <div class="h-100 w-100 row">
+          <div class="col-xs_12 col-md-1"></div>
+          <div class="col-xs_12 col-md-6 content-left">
+              <h1> Hello. </h1>
+              <p>
+                      Nam sole orto magnitudine angusti gurgitis sed profundi
+                   a transitu arcebantur et dum piscatorios quaerunt
+                  lenunculos vel innare temere contextis cratibus parant,
+                   effusae legiones, quae hiemabant tunc apud Siden, isdem
+                   impetu occurrere veloci. et signis prope ripam locatis
+                   ad manus comminus conserendas denseta scutorum conpage
+                   semet scientissime praestruebant, ausos quoque aliquos
+                   fiducia nandi vel cavatis arborum truncis amnem permeare
+                   latenter facillime trucidarunt.
 
-          <script type="text/javascript" src="../js/Circle.js"></script>
+                   Harum trium sententiarum nulli prorsus assentior.
+                    Nec enim illa prima vera est, ut, quem ad modum
+                    in se quisque sit, sic in amicum sit animatus.
+                    Quam multa enim, quae nostra causa numquam faceremus,
+                    facimus causa amicorum! precari ab indigno, supplicare,
+                    tum acerbius in aliquem invehi insectarique vehementius,
+                     quae in nostris rebus non satis honeste, in amicorum
+          </div>
+          <div class="d-flex align-items-center justify-content-center flex-column col-xs_12 col-md-5 content-right">
+            <canvas id="renderCanvas"></canvas>
+            <div id="button-container">
+              <div class="border-button">
+                <h4 id="button"> SEE MY WORK </h4>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      <div>
+          <script type="text/javascript" src="../js/CircleCanvas.js"></script>
     </body>
 
 
