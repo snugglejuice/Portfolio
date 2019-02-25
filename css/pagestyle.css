@@ -20,6 +20,19 @@
     src: url("../asset/fonts/Montserrat-Regular.ttf");
 }
 
+#projectPage{
+  height: 90vh;
+}
+
+.project{
+  width: 30%;
+  height: 50%;
+  background-color: white;
+
+  margin: 10%;
+
+}
+
 .about{
   position: relative;
 }
@@ -166,6 +179,7 @@ p{
 h1{
   font-family: "Montserrat SemiBold";
   font-size: 12rem;
+  text-transform: uppercase;
 }
 
 
