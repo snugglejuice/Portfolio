@@ -1,3 +1,5 @@
+<!--- ATTENTION BUTTON NON RESPOSIVE A CHANGER --->
+
 <!doctype html>
 <html lang="fr" class="h-100">
     <head>
@@ -19,19 +21,38 @@
 
     </head>
     <body>
+      <div id="modal">
+        <div id="openVolet" class=" align-items-center justify-content-center ">
+          <h2 id="closeButton">x</h2>
+          <div class="d-flex align-items-center justify-content-center flex-column voletBtn">
+            <h2 id="btnVolet" class="my-5">WORK.</h2>
+            <a href="#about"><h2 id="btnVolet" class="my-5">ABOUT.</h2></a>
+            <h2 id="btnVolet" class="my-5">CONTACT.</h2>
+          </div>
+
+        </div>
+
+        <div id="menuButton" class="h-100">
+          <img class="menuImg"
+               src="../asset/images/menu.png"
+               alt="menu" />
+          </div>
+      </div>
+
       <div class="w-100 header">
         <div class="row">
           <div class="col-sm-7 col-md-9"></div>
-          <div class="col-sm-5 col-md-3 my-4 header-content">
+          <div class="col-sm-5 col-md-3 my-4 header-conte
+          nt">
             <p id="header-title"> Welcome in my dimension </p>
             <h4> Séminel Marion </h4>
           </div>
       </div>
       </div>
-      <div class="w-100 content-container">
-        <div class="h-100 w-100 row">
-          <div class="col-xs_12 col-md-1"></div>
-          <div class="col-xs_12 col-md-6 content-left">
+
+        <div class="w-100 row my-5">
+          <div class="col-xs-12 col-md-1"></div>
+          <div class="col-xs-12 col-md-6 content-left">
               <h1> Hello. </h1>
               <p>
                       Nam sole orto magnitudine angusti gurgitis sed profundi
@@ -52,6 +73,7 @@
                     tum acerbius in aliquem invehi insectarique vehementius,
                      quae in nostris rebus non satis honeste, in amicorum
           </div>
+
           <div class="d-flex align-items-center justify-content-center flex-column col-xs_12 col-md-5 content-right">
             <canvas id="renderCanvas"></canvas>
             <div id="button-container">
@@ -62,8 +84,87 @@
             </div>
           </div>
         </div>
-      <div>
-          <script type="text/javascript" src="../js/CircleCanvas.js"></script>
+
+
+      <div id="about" class="about">
+        <div class="row">
+            <div class="col-xs-12 col-md-1"></div>
+            <div class="col-xs-12 col">
+              <h1>About.</h1>
+              <p> Harum trium sententiarum nulli prorsus assentior.
+                  Nec enim illa prima vera est, ut, quem ad modum
+                  in se quisque sit, sic in amicum sit animatus.
+                  Harum trium sententiarum nulli prorsus assentior.
+                  Nec enim illa prima vera est, ut, quem ad modum
+                  in se quisque sit, sic in amicum sit animatus. </p>
+
+                <a class="aboutBtn">
+                  <span>Download Resume</span>
+                </a>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-1"></div>
+          <div id="education" class="col"> Education </div>
+          <div class="col">
+            <div class="aboutEducation">
+              <div class="aTitle">
+                Imac Engineer school
+              </div>
+              <div class="aDate">
+                Champs-Sur-Marne, september 2017 - 2020
+              </div>
+              <div class="aInfo">
+                Image Multimedia Audivisual Communication
+              </div>
+            </div>
+            <div class="aboutEducation">
+              <div class="aTitle">
+                Classe Préparatoire MPSI/MP
+              </div>
+              <div class="aDate">
+                Le Havre, september 2015 - 2017
+              </div>
+              <div class="aInfo">
+                Math and Physics intensiv coursiv
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-1"></div>
+          <div id="education" class="col"> Education </div>
+          <div class="col">
+            <div class="aboutEducation">
+              <div class="aTitle">
+                Imac Engineer school
+              </div>
+              <div class="aDate">
+                Champs-Sur-Marne, september 2017 - 2020
+              </div>
+              <div class="aInfo">
+                Image Multimedia Audivisual Communication
+              </div>
+            </div>
+            <div class="aboutEducation">
+              <div class="aTitle">
+                Classe Préparatoire MPSI/MP
+              </div>
+              <div class="aDate">
+                Le Havre, september 2015 - 2017
+              </div>
+              <div class="aInfo">
+                Math and Physics intensiv coursiv
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <script type="text/javascript" src="../js/CircleCanvas.js"></script>
     </body>
 
 

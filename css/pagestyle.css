@@ -20,6 +20,137 @@
     src: url("../asset/fonts/Montserrat-Regular.ttf");
 }
 
+.about{
+  position: relative;
+}
+.about p{
+  width:70%;
+}
+
+.aboutBtn{
+  background-image:linear-gradient(to right, #c368a6 , #2e488b);
+  box-sizing: border-box;
+
+  width:20vw;
+  height:10vh;
+	display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 0.5rem;
+
+	font: 1.125rem "Montserrat SemiBold", sans-serif;
+	letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+	text-transform: uppercase;
+
+	z-index: 2;
+}
+
+.aboutBtn:hover span{
+  background: transparent;
+}
+
+.aboutBtn span{
+  align-items: center;
+  background: black;
+
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background .5s ease;
+  width: 100%;
+}
+
+#education{
+  font-family: "Montserrat Regular";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.aTitle{
+  font-family: "Montserrat SemiBold";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+
+  margin-bottom: 1vh;
+}
+.aDate{
+  font-family: "Montserrat Regular";
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.aInfo{
+  font-family: "Montserrat Regular";
+  font-size: 0.8rem;
+}
+
+.aboutEducation{
+  margin-bottom: 5vh;
+}
+#modal {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    z-index:4;
+    width:40%;
+    min-height: 100%;
+
+    overflow: hidden;
+    padding:0;
+}
+
+#openVolet{
+  background-image:  linear-gradient(to right, #c368a6 , #2e488b);
+  display:none;
+  width : 100%;
+}
+
+
+#btnVolet{
+  font-family: "Montserrat SemiBold";
+  font-size: 4rem;
+  margin-bottom: 25%;
+}
+
+#btnVolet:hover{
+  text-decoration: line-through;
+}
+
+.voletBtn{
+  margin-top: 10%;
+}
+
+.menuImg{
+  margin-top: 50%;
+}
+
+#menuButton{
+  display: block;
+}
+#closeButton{
+  font-family:  "Montserrat SemiBold";
+  font-size: 4rem;
+  margin-top:  0rem;
+  margin-bottom: 0rem;
+  margin-right: 1rem;
+  text-align: right;
+  cursor: pointer;
+
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+
+a:hover{
+  text-decoration: none;
+  color:white;
+}
+
 body{
   background-color: black;
   color:white;
@@ -103,6 +234,10 @@ h1 {
     padding: auto;
     margin-top: 10%;
   }
+
+  #modal {
+      width:100%;
+  }
 }
 
 @media (min-width: 0px) and (max-width: 500px) {
@@ -118,5 +253,9 @@ p{
     display: block;
     padding: auto;
     margin-top: 20%;
+  }
+
+  #modal {
+      width:100%;
   }
 }

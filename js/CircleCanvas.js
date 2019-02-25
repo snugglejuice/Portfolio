@@ -1,5 +1,24 @@
+/*************************  MENU */
+var button = document.querySelector("#menuButton");
+var volet = document.querySelector("#openVolet");
+var menu = document.querySelector("#menuButton");
+var button2 = document.querySelector("#closeButton");
+function closeMenu(){
+  volet.style.display="none";
+  button.style.display="block";
+}
+function toggleMenu(){
+  if(volet.style.display=="none"){
+    volet.style.display = "block";
+    menu.style.display = "none";
+  }
+  else{
+    volet.style.display = "none";
+  }
+}
 
-
+button.addEventListener('click',toggleMenu);
+button2.addEventListener('click',closeMenu);
 
 (function(w) {
 
