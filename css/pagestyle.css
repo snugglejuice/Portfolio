@@ -3,7 +3,7 @@
   background-color: lightgreen;
   border: 2px solid black;
   border-radius: 6px;
-}*/
+} */
 
 @font-face {
  font-family: "Yeseva One";
@@ -21,15 +21,21 @@
 }
 
 #projectPage{
-  height: 90vh;
+  margin:5%;
 }
 
+#projectBtn{
+  margin-top: 31%;
+}
+#projectPageOne{
+  margin-left: 5%;
+}
 .project{
-  width: 30%;
-  height: 50%;
+  width: 20vw;
+  height: 20vh;
   background-color: white;
 
-  margin: 10%;
+  margin: 4%;
 
 }
 
