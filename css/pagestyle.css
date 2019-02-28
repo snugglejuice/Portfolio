@@ -100,6 +100,9 @@
   margin: 3%;
   background-color: white;
 }
+.softwaresElement img{
+  width:9vh;
+}
 #projectPage{
   margin:5%;
 }
