@@ -21,11 +21,23 @@
 }
 
 
+.warning{
+  position: fixed;
+  height: 5%;
+  background-color: #c368a6;
+  text-align: center;
+  z-index: 10;
+}
 #gradient{
   background: linear-gradient(330deg, #52e0e0 0%, #9952e0 50%, #e05252 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
+}
+
+.cr{
+  font-size: 0.6rem;
+  text-align: center;
 }
 .contact{
   margin:20vh;
