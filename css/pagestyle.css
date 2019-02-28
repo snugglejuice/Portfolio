@@ -39,8 +39,10 @@
   font-size: 0.6rem;
   text-align: center;
 }
+
 .contact{
-  margin:20vh;
+  margin-top:5%;
+  margin-bottom: 5%;
 }
 
 .contactText{
@@ -160,11 +162,13 @@
 }
 
 .aboutBtn{
+  text-align: center;
+
   background-image:linear-gradient(to right, #c368a6 , #2e488b);
   box-sizing: border-box;
 
-  width:20vw;
-  height:10vh;
+  width:250px;
+  height:80px;
 	display: block;
   position: relative;
   margin: auto;
@@ -178,7 +182,7 @@
   text-decoration: none;
 	text-transform: uppercase;
 
-	z-index: 2;
+	z-index: 9;
 }
 
 .aboutBtn:hover span{
@@ -366,10 +370,35 @@ h4{
   margin-top: 10%;
 }
 
+@media (min-width: 970px) and (max-width: 1300px) {
+  h3 {
+    width: 100%;
+  	font-size: 4rem;
+  	}
+  .contactText{
+    font-size: 1rem;
+  }
+  .contact{
+    margin-top:2%;
+    margin-bottom: 2%;
+  }
+}
+
 @media (min-width: 850px) and (max-width: 970px) {
-h1 {
-	font-size: 10rem;
-	}
+  h1 {
+  	font-size: 10rem;
+  	}
+  h3 {
+    width: 100%;
+    font-size: 4rem;
+    }
+  .contactText{
+    font-size: 1rem;
+  }
+  .contact{
+    margin-top:2%;
+    margin-bottom: 2%;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 850px) {
@@ -387,14 +416,29 @@ h1 {
   #modal {
       width:100%;
   }
+
+  h3 {
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    }
+  .contactText{
+    font-size: 1rem;
+  }
+  .contact{
+    margin-top:5%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
 }
 
 @media (min-width: 0px) and (max-width: 500px) {
-h1 {
-	font-size: 5rem;
-	}
-p{
-  font-size: 0.8rem;
+  h1 {
+  	font-size: 5rem;
+  	}
+  p{
+    font-size: 0.8rem;
 }
 
   #renderCanvas{
@@ -407,4 +451,18 @@ p{
   #modal {
       width:100%;
   }
+
+  h3 {
+    font-size: 3rem;
+    }
+  .contactText{
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  .contact{
+    margin-top:10%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+
 }
