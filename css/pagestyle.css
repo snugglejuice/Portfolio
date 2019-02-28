@@ -21,7 +21,12 @@
 }
 
 
+#gradient{
+  background: linear-gradient(330deg, #52e0e0 0%, #9952e0 50%, #e05252 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
+}
 .contact{
   margin:20vh;
 }
@@ -58,7 +63,7 @@
     position: absolute;
 
     height: 14px;
-    background: #ff447c;
+    background: #9952e0;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
