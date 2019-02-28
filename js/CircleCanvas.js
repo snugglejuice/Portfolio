@@ -1,3 +1,25 @@
+/************************* PROJECT */
+
+var arrowButton = document.querySelector("#arrowBtn");
+var projectPageOne = document.querySelector("#projectPageOne");
+var projectPageTwo = document.querySelector("#projectPageTwo");
+
+function displayProject(){
+  console.log("CLICK !");
+  if (projectPageOne.style.display == "none")
+  {
+    projectPageOne.style.display = "block";
+    projectPageTwo.style.display = "none";
+  }
+  else{
+    projectPageOne.style.display = "none";
+    projectPageTwo.style.display = "block";
+  }
+}
+
+
+arrowButton.addEventListener('click',displayProject);
+
 /*************************  MENU */
 var button = document.querySelector("#menuButton");
 var volet = document.querySelector("#openVolet");

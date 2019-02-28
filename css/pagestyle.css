@@ -29,7 +29,18 @@
 }
 #projectPageOne{
   margin-left: 5%;
+  display: block;
 }
+
+#projectPageTwo{
+  margin-left: 5%;
+  display: none;
+}
+
+#projectPageTwo .projectContainer .project{
+  background-color: red;
+}
+
 .project{
   width: 20vw;
   height: 20vh;
