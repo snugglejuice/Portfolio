@@ -104,19 +104,21 @@
   width:9vh;
 }
 #projectPage{
-  margin:5%;
+  margin-top:15%;
+  margin-bottom: 15%;
 }
-
 #projectBtn{
-  margin-top: 31%;
+  display: flex;
+  align-items: center;
+}
+#projectBtn img{
+  width:50%;
 }
 #projectPageOne{
-  margin-left: 5%;
   display: block;
 }
 
 #projectPageTwo{
-  margin-left: 5%;
   display: none;
 }
 
@@ -125,11 +127,11 @@
 }
 
 .project{
-  width: 20vw;
+  width: 5vw;
   height: 20vh;
   background-color: white;
 
-  margin: 4%;
+  margin: 3%;
 
 }
 
